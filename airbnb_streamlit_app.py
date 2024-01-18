@@ -17,7 +17,7 @@ import plotly.express as px
 data = pd.read_csv("C:/Users/laage/techW/EDA/madrid_airbnb_data_2023.csv")
 
 # 2. Título General para la aplicación
-st.title("Precios promedios de AirBnB en barrios de Madrid durante el año 2023")
+st.title("Datos de AirBnB en Madrid en el 2023")
 
 # 3. Barplot de Precios promedios por barrio por tipo de habitación.
 ### Agrupamos el dataset por 'room_type','neighbourhood'
